@@ -61,8 +61,8 @@ def toLabelPath(img_path, label_path):
 
 if __name__ == '__main__':
     # 请在这里设置文件夹路径
-    img_path = r'E:\sawBlade\second\images'
-    label_path = r'E:\sawBlade\second\labels_else'
+    img_path = r'D:\sawBlade\data2\images'
+    label_path = r'D:\sawBlade\data2\labels_else'
     split_list = [0.9, 0.1, 0]  # 数据集划分比例[train:val:test]
     # 将划分的数据集放到图片的上一级目录下的data文件夹下
     os.chdir(os.path.dirname(img_path))

@@ -6,8 +6,8 @@ import xml.etree.ElementTree as ET
 import os
 
 # 类别
-classes = ['left_unqualified', 'left_qualified', 'right_unqualified', 'right_qualified']
-xml_path = r"E:\sawBlade\second\labels"
+classes = ['left_unqualified', 'left_qualified', 'right_unqualified', 'right_qualified', 'incomplete']
+xml_path = r"D:\sawBlade\data2\labels"
 
 
 def convert(size, box):

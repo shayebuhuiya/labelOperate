@@ -40,12 +40,12 @@ def convert_label_json(json_dir, save_dir, classes):
 
 if __name__ == "__main__":
     """
-    python json2txt_nomalize.py --json-dir my_datasets/color_rings/jsons --save-dir my_datasets/color_rings/txts --classes "cat,dogs"
+    python json2txt_nomalize.py --json-dir D:\sawBlade\label_json --save-dir D:\sawBlade\label_txt --classes "object"
     """
     parser = argparse.ArgumentParser(description='json convert to txt params')
-    parser.add_argument('--json-dir', type=str, default=r'E:\sawBlade\segment\label',
+    parser.add_argument('--json-dir', type=str, default=r'D:\sawBlade\label_json',
                         help='json path dir')
-    parser.add_argument('--save-dir', type=str, default=r'E:\sawBlade\segment\labeltxt',
+    parser.add_argument('--save-dir', type=str, default=r'D:\sawBlade\label_txt',
                         help='txt save dir')
     parser.add_argument('--classes', type=str, default='object', help='classes')
     args = parser.parse_args()
